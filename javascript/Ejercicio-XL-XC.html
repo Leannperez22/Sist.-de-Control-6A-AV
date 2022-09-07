@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+</head>
+<body>
+    <script>
+        var frec = Number(prompt("decime la frecuencia"));
+     var L = Number(prompt("decime la inductancia"));
+     var C = Number(prompt("y por ultimo dame la capacitancia"));
+     var dospi= 6.28
+     function operaciones(){
+        var XL = dospi * frec * L
+        var XC= 1/dospi * frec * C
+        document.write("<p>" + "XL= " + XL + '</p>')
+        document.write("<p>" + "XC= " + XC + '</p>')
+        document.write('<p><a href="../index.html">LocalHost</a></p>')
+     }
+
+    </script>
+
+    <button onclick="operaciones()">Resultados</button>
+</body>
+</html>
