@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Document</title>
+</head>
+<body>
+   <script>
+     var val1 = Number(prompt("maquina dame un numero"));
+	 var val2 = Number(prompt("maquina dame otro numero"));
+	 function operaciones(){
+        
+        var suma = val1 + val2;
+        var resta =val1-val2;
+        var multiplicacion =val1*val2;
+        var division =val1/val2;
+        document.write("<p>" + "val1= " + val1 + '</p>')
+        document.write("<p>" + "val2= " + val2 + '</p>')    
+        document.write('<p>' + "suma= " + suma + '</p>')
+        document.write("<p>" + "resta= " +resta + "</p>")
+        document.write("<p>" + "multiplicacion= " + multiplicacion + "</p>")
+        document.write("<p>" + "division= " + division + "</p>")
+	 }
+   </script> 
+   <button onclick="operaciones()">resultados de la cuentas</button>
+
+</body>
+</html>
