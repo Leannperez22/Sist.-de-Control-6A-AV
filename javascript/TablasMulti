@@ -19,13 +19,8 @@
             results.push(num * i)
         }
 
-        const mappedResults = results.map((result, index) => {
-            const p = document.createElement('p')
-            p.innerText = `${num}x${index} = ${result}`
-            return p
+       document.write('<p><a href="../index.html">LocalHost</a></p>')
         })
-
-        $container.append(...mappedResults)
     </script>
 </body>
 </html>
